@@ -1,5 +1,6 @@
 # AutomationFramework_using_SeleniumPython
-Development using POM
+"Development using POM"
+
 Features to be implemented:
 1> Implementation of logging using Loggers and Handlers
 2> Test cases to be updated to use "PyTest" framework
@@ -7,3 +8,4 @@ Features to be implemented:
 4> Test suite execution using PyTest framework
 5> Ability to email test reports
 6> Multiple or parallel executions
+7> Adding utility classes and methods
