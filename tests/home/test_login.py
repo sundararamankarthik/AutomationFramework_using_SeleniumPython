@@ -24,13 +24,13 @@ class TestLogin():
         print("Completing test")
 
 
-    # def test_valid_login(self, set_up):
-    #     self.my_driver = webdriver.Firefox()
-    #     testURL = "https://letskodeit.teachable.com/"
-    #     self.my_driver.get(testURL)
-    #     self.my_driver.maximize_window()
-    #     lp = LoginPage(self.my_driver)
-    #     lp.login("test@email.com", "abcabc")
+    def test_valid_login(self, set_up):
+        self.my_driver = webdriver.Firefox()
+        testURL = "https://letskodeit.teachable.com/"
+        self.my_driver.get(testURL)
+        self.my_driver.maximize_window()
+        lp = LoginPage(self.my_driver)
+        lp.login("test@email.com", "abcabc")
 
 
 
