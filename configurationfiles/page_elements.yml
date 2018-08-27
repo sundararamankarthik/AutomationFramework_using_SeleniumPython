@@ -1,0 +1,24 @@
+#comment
+LOGINPAGE:
+    login_link:
+        XPATH: "//a[contains(@class,'navbar-link') and contains(text(),'Login')]"
+    username_textbox:
+        XPATH: ""
+        ID: "user_email"
+        CSS: ""
+    password_textbox:
+        XPATH: ""
+        ID: "user_password"
+        CSS: ""
+    submit_button:
+        XPATH: "//input[@name='commit']"
+
+HOMEPAGE:
+    profile_image:
+        XPATH: "//img[@class='gravatar' and @alt='test@email.com']"
+    signout_link:
+        XPATH: "//li[@class='user-signout']"
+
+
+
+

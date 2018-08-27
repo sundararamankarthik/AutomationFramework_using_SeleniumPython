@@ -1,0 +1,8 @@
+DEFAULT:
+    ADMIN: xyz
+    SOMEDICT:
+        v1: k1
+        v2: k2
+    SOMELIST:
+        - v1
+        - v2

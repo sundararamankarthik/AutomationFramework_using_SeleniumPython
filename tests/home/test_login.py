@@ -23,20 +23,13 @@ class TestLogin():
         yield
         print("Completing test")
 
-
-    def test_valid_login(self, set_up):
-        self.my_driver = webdriver.Firefox()
-        testURL = "https://letskodeit.teachable.com/"
-        self.my_driver.get(testURL)
-        self.my_driver.maximize_window()
-        lp = LoginPage(self.my_driver)
-        lp.login("test@email.com", "abcabc")
-
-
-
     def test_logout(self, set_up):
         self.my_driver = webdriver.Firefox()
         testURL = "https://letskodeit.teachable.com/"
+        # screenshot_dir = "C:\\Users\\sunda\\PycharmProjects\\AutomationFramework\\screenshots\\"
+        # screenshot_filename = str(round(time.time())) + ".png"
+        # #Save Screenshot
+        # self.my_driver.save_screenshot(screenshot_dir + screenshot_filename)
         self.my_driver.get(testURL)
         self.my_driver.maximize_window()
         lp = LoginPage(self.my_driver)
